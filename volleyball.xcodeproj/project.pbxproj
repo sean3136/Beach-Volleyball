@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B212213F2A33473F0074325A /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = B212213E2A33473F0074325A /* FirebaseAuth */; };
+		B21221412A33473F0074325A /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = B21221402A33473F0074325A /* FirebaseFirestoreSwift */; };
+		B21221432A33473F0074325A /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = B21221422A33473F0074325A /* FirebaseStorage */; };
+		B21221472A3457FE0074325A /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21221462A3457FE0074325A /* LoginView.swift */; };
+		B21221492A346E5A0074325A /* WaitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21221482A346E5A0074325A /* WaitView.swift */; };
+		B212214D2A34930F0074325A /* WaitView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B212214C2A34930F0074325A /* WaitView2.swift */; };
+		B2D783AF2A332C0D00E630F5 /* volleyballApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D783AE2A332C0D00E630F5 /* volleyballApp.swift */; };
+		B2D783B12A332C0D00E630F5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D783B02A332C0D00E630F5 /* ContentView.swift */; };
+		B2D783B32A332C0E00E630F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2D783B22A332C0E00E630F5 /* Assets.xcassets */; };
+		B2D783B62A332C0E00E630F5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2D783B52A332C0E00E630F5 /* Preview Assets.xcassets */; };
+		B2D783BF2A33318400E630F5 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D783BE2A33318400E630F5 /* GameView.swift */; };
+		B2D783C32A3331D000E630F5 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D783C22A3331D000E630F5 /* MainView.swift */; };
+		B2D783C52A33337A00E630F5 /* RoomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D783C42A33337A00E630F5 /* RoomView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B21221462A3457FE0074325A /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		B21221482A346E5A0074325A /* WaitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaitView.swift; sourceTree = "<group>"; };
+		B212214C2A34930F0074325A /* WaitView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaitView2.swift; sourceTree = "<group>"; };
+		B2D783AB2A332C0D00E630F5 /* volleyball.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = volleyball.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2D783AE2A332C0D00E630F5 /* volleyballApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = volleyballApp.swift; sourceTree = "<group>"; };
+		B2D783B02A332C0D00E630F5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B2D783B22A332C0E00E630F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B2D783B52A332C0E00E630F5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B2D783BE2A33318400E630F5 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		B2D783C22A3331D000E630F5 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		B2D783C42A33337A00E630F5 /* RoomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B2D783A82A332C0D00E630F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B212213F2A33473F0074325A /* FirebaseAuth in Frameworks */,
+				B21221412A33473F0074325A /* FirebaseFirestoreSwift in Frameworks */,
+				B21221432A33473F0074325A /* FirebaseStorage in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B2D783A22A332C0D00E630F5 = {
+			isa = PBXGroup;
+			children = (
+				B2D783AD2A332C0D00E630F5 /* volleyball */,
+				B2D783AC2A332C0D00E630F5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B2D783AC2A332C0D00E630F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2D783AB2A332C0D00E630F5 /* volleyball.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B2D783AD2A332C0D00E630F5 /* volleyball */ = {
+			isa = PBXGroup;
+			children = (
+				B2D783AE2A332C0D00E630F5 /* volleyballApp.swift */,
+				B2D783B02A332C0D00E630F5 /* ContentView.swift */,
+				B21221462A3457FE0074325A /* LoginView.swift */,
+				B2D783BE2A33318400E630F5 /* GameView.swift */,
+				B2D783C22A3331D000E630F5 /* MainView.swift */,
+				B21221482A346E5A0074325A /* WaitView.swift */,
+				B2D783C42A33337A00E630F5 /* RoomView.swift */,
+				B212214C2A34930F0074325A /* WaitView2.swift */,
+				B2D783B22A332C0E00E630F5 /* Assets.xcassets */,
+				B2D783B42A332C0E00E630F5 /* Preview Content */,
+			);
+			path = volleyball;
+			sourceTree = "<group>";
+		};
+		B2D783B42A332C0E00E630F5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B2D783B52A332C0E00E630F5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B2D783AA2A332C0D00E630F5 /* volleyball */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2D783B92A332C0E00E630F5 /* Build configuration list for PBXNativeTarget "volleyball" */;
+			buildPhases = (
+				B2D783A72A332C0D00E630F5 /* Sources */,
+				B2D783A82A332C0D00E630F5 /* Frameworks */,
+				B2D783A92A332C0D00E630F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = volleyball;
+			packageProductDependencies = (
+				B212213E2A33473F0074325A /* FirebaseAuth */,
+				B21221402A33473F0074325A /* FirebaseFirestoreSwift */,
+				B21221422A33473F0074325A /* FirebaseStorage */,
+			);
+			productName = volleyball;
+			productReference = B2D783AB2A332C0D00E630F5 /* volleyball.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B2D783A32A332C0D00E630F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					B2D783AA2A332C0D00E630F5 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = B2D783A62A332C0D00E630F5 /* Build configuration list for PBXProject "volleyball" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B2D783A22A332C0D00E630F5;
+			packageReferences = (
+				B212213D2A33473F0074325A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = B2D783AC2A332C0D00E630F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B2D783AA2A332C0D00E630F5 /* volleyball */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B2D783A92A332C0D00E630F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2D783B62A332C0E00E630F5 /* Preview Assets.xcassets in Resources */,
+				B2D783B32A332C0E00E630F5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B2D783A72A332C0D00E630F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B21221472A3457FE0074325A /* LoginView.swift in Sources */,
+				B2D783B12A332C0D00E630F5 /* ContentView.swift in Sources */,
+				B2D783C32A3331D000E630F5 /* MainView.swift in Sources */,
+				B2D783C52A33337A00E630F5 /* RoomView.swift in Sources */,
+				B212214D2A34930F0074325A /* WaitView2.swift in Sources */,
+				B21221492A346E5A0074325A /* WaitView.swift in Sources */,
+				B2D783BF2A33318400E630F5 /* GameView.swift in Sources */,
+				B2D783AF2A332C0D00E630F5 /* volleyballApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B2D783B72A332C0E00E630F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B2D783B82A332C0E00E630F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B2D783BA2A332C0E00E630F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"volleyball/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ace.volleyball;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B2D783BB2A332C0E00E630F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"volleyball/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ace.volleyball;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B2D783A62A332C0D00E630F5 /* Build configuration list for PBXProject "volleyball" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2D783B72A332C0E00E630F5 /* Debug */,
+				B2D783B82A332C0E00E630F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2D783B92A332C0E00E630F5 /* Build configuration list for PBXNativeTarget "volleyball" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2D783BA2A332C0E00E630F5 /* Debug */,
+				B2D783BB2A332C0E00E630F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B212213D2A33473F0074325A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B212213E2A33473F0074325A /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B212213D2A33473F0074325A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		B21221402A33473F0074325A /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B212213D2A33473F0074325A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		B21221422A33473F0074325A /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B212213D2A33473F0074325A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = B2D783A32A332C0D00E630F5 /* Project object */;
+}
